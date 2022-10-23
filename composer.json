@@ -1,0 +1,20 @@
+{
+    "name": "blytd/support",
+    "description": "some common blytd functionalities",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Blytd\\Support\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mahdi Ghasemi",
+            "email": "ghasemim875@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "guzzlehttp/guzzle": "^7.4.1"
+    }
+}
